@@ -1,8 +1,10 @@
 # The Open Church Project
 
-The Open Church Project is an open-source effort to explore and build useful,
-welcoming tools for church communities. This repository is the place to discuss
-the project's direction and how to take part.
+The Open Church Project is an open-source effort to build useful, welcoming
+tools for church communities. The planned product direction is an open
+alternative to worship presentation software such as EasyWorship: detect spoken
+scripture references and project the matching passages so scripture slides can
+follow the service, with local/offline operation as a goal.
 
 The project is at an early planning stage. The roadmap below is a proposal, not
 a promise or a dated delivery schedule. We’ll refine it with feedback from the
@@ -18,29 +20,31 @@ people and communities the work is meant to serve.
 
 ### Now — listen and agree on a first goal
 
-- Learn what churches and their communities actually need, and who the first
-  tools should serve.
-- Agree on a small, useful first release rather than building features on
-  assumptions.
-- Set expectations for accessibility, privacy, and how the project will be
-  maintained.
+- Work with churches and service operators to define the first scripture
+  projection workflow and the equipment it needs to support.
+- Decide how spoken references will be detected, which scripture text sources
+  can be used, and how operators can confirm or correct a match.
+- Define local/offline operation, including how audio is handled, and set
+  expectations for accessibility, privacy, and maintenance.
 
-### Next — build and test a first useful experience
+### Next — build and test scripture projection
 
-Once the first goal is agreed, candidate work could include:
+The first useful release could include:
 
-- A clear project website and getting-started guide.
-- A simple way for a church to share practical information, such as service
-  times, events, and ways to get in touch.
-- A mobile-friendly, accessible experience shaped by feedback from real users.
+- A presentation view that displays scripture passages clearly on a projector.
+- Voice detection to identify spoken scripture references and bring up the
+  matching passage, with operator controls and a manual fallback.
+- A local mode designed to keep working without an internet connection.
+- Testing in real services to improve recognition, reliability, and ease of use.
 
 ### Later — grow carefully
 
-- Explore optional integrations or additional tools only when there is a clear
-  need and someone to maintain them.
-- Test changes with more churches and communities, then improve what proves
-  useful.
-- Document ongoing maintenance, privacy practices, and how people can get help.
+- Consider support for other service presentation needs, such as songs or media,
+  based on community feedback.
+- Explore integrations only when there is a clear need and someone to maintain
+  them.
+- Document supported scripture sources, setup, privacy practices, and ongoing
+  maintenance.
 
 These are ideas to discuss, not commitments. Priorities may change as we learn.
 
