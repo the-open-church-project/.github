@@ -1,8 +1,9 @@
 # Local and offline operation roadmap
 
-This proposed shared capability will let the core worship presentation workflow
-run without cloud services. Local operation is intended to improve reliability
-and reduce the movement of service audio and other private data off device.
+This proposed shared capability will let Verger and Open Worship use local
+storage, local models, and offline workflows where practical. Local operation is
+intended to improve reliability and reduce the movement of service audio and
+other private church data off device.
 
 ## Status
 
@@ -21,8 +22,8 @@ flowchart LR
 
 ### Now
 
-- Define local storage for approved scripture texts, presentations, settings,
-  and models.
+- Define local storage for Verger church data, approved Open Worship scripture
+  texts and presentations, settings, and models.
 - Set minimum hardware, storage, microphone, and projector requirements.
 - Document which licenses permit offline use and redistribution.
 - Decide what, if anything, can be synchronized when internet access is
@@ -30,7 +31,8 @@ flowchart LR
 
 ### Next
 
-- Run scripture recognition and presentation without an internet connection.
+- Run Open Worship recognition and presentation without an internet connection.
+- Define which Verger workflows can work locally or through self-hosting.
 - Add visible offline status and a clear manual fallback.
 - Test startup, microphone failure, display failure, and interrupted updates.
 - Provide a secure, reversible data import and backup process.

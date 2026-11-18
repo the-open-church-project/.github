@@ -1,8 +1,8 @@
 # Verger roadmap
 
-Verger is the proposed open-source worship presentation application. It should
-help an operator display scripture and other service content clearly, with
-voice-led scripture follow-through and local operation as key goals.
+Verger is the proposed open-source church operating system. It is the broader
+product for coordinating church administration and ministry work, while Open
+Worship handles the live presentation needs of a service.
 
 ## Status
 
@@ -12,34 +12,37 @@ Proposed. No Verger repository or implementation is documented yet.
 
 ```mermaid
 flowchart LR
-    A["NOW<br/>Define operator and display workflow"]
-    B["NEXT<br/>Build scripture presentation MVP"]
-    C["TEST<br/>Use in real services"]
-    D["LATER<br/>Add songs, media, and service planning"]
+    A["NOW<br/>Define core church workflows"]
+    B["NEXT<br/>Build an operations MVP"]
+    C["TEST<br/>Use with church teams"]
+    D["LATER<br/>Integrate ministry tools and services"]
     A --> B --> C --> D
 ```
 
 ### Now
 
-- Interview service operators about how they prepare and run services.
-- Define projector, preview, confidence display, and emergency control needs.
-- Agree on keyboard, accessibility, and low-technical-skill requirements.
+- Work with church leaders, administrators, and volunteers to identify repeated
+  operational work and the first valuable workflows.
+- Define roles, permissions, data ownership, privacy, and accessibility
+  requirements.
+- Decide which capabilities belong in Verger and which should remain separate
+  products.
 
 ### Next
 
-- Build a projector presentation view for approved scripture passages.
-- Add an operator preview and controls to accept, correct, or dismiss a
-  detected reference.
-- Integrate with scripture voice detection and local operation.
+- Build a focused operating-system MVP for one agreed church workflow.
+- Provide clear administration, role-based access, and practical exports.
+- Explore integration with Open Worship without requiring it.
 
 ### Later
 
-- Add service schedules, songs, media, themes, and reusable presentations.
-- Document installation and supported display setups.
-- Explore integrations only where they have a clear maintainer and purpose.
+- Expand into additional church operations, ministry workflows, and reporting.
+- Add supported integrations with clear owners, privacy expectations, and
+  maintenance commitments.
+- Develop a local or self-hosted option where reliable and practical.
 
 ## Open questions
 
-- Which operating systems and projector setups must the first release support?
-- Which scripture text sources can be redistributed or used offline?
-- How should Verger behave when recognition is unavailable or uncertain?
+- Which church workflow creates the clearest first value?
+- Which records need local storage, self-hosting, or strict access controls?
+- Which Open Worship data, if any, should be available inside Verger?

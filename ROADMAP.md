@@ -22,16 +22,16 @@ flowchart TB
     B["Define shared workflow,<br/>privacy, accessibility, and licensing"]
     A --> B
 
-    V["Verger<br/>Open worship presenter"]
-    S["Scripture voice detection"]
+    V["Verger<br/>Church operating system"]
+    O["Open Worship<br/>Open presentation with local voice and AI"]
     L["Local and offline operation"]
     B --> V
-    B --> S
+    B --> O
     B --> L
 
-    P["Integrated service prototype<br/>Voice-led scripture projection"]
+    P["Integration checkpoint<br/>Useful links between both products"]
     V --> P
-    S --> P
+    O --> P
     L --> P
 
     G["Later expansion<br/>Songs, media, and integrations"]
@@ -43,8 +43,8 @@ flowchart TB
 | Project | Status | Now | Next | Roadmap |
 | --- | --- | --- | --- | --- |
 | Organization documentation | Active | Keep this map and contribution guidance accurate | Add templates and governance as repositories are created | This document |
-| Verger | Proposed | Define the operator and projector workflow | Build and test a focused scripture presentation MVP | [`roadmaps/verger/`](roadmaps/verger/ROADMAP.md) |
-| Scripture voice detection | Proposed | Choose reference patterns, languages, and approved scripture sources | Prototype recognition, matching, confirmation, and fallback | [`roadmaps/scripture-voice/`](roadmaps/scripture-voice/ROADMAP.md) |
+| Verger | Proposed | Define the connected church management workflows | Build and test a focused church operations MVP | [`roadmaps/verger/`](roadmaps/verger/ROADMAP.md) |
+| Open Worship | Proposed | Define scripture presentation and local recognition requirements | Build and test an EasyWorship-style open presentation MVP | [`roadmaps/open-worship/`](roadmaps/open-worship/ROADMAP.md) |
 | Local and offline operation | Proposed | Define on-device audio, data, and model requirements | Make the integrated workflow usable without the internet | [`roadmaps/local-offline/`](roadmaps/local-offline/ROADMAP.md) |
 
 ## Cross-project stages
@@ -67,22 +67,25 @@ flowchart LR
 
 ### Now
 
-- Work with churches and service operators to define practical service needs.
-- Decide how the projects exchange scripture references and presentation state.
-- Set expectations for accessibility, privacy, scripture text licensing, and
-  supported languages.
+- Work with churches to define practical administration and service needs.
+- Define how Verger and Open Worship remain separate products while sharing
+  useful integrations.
+- Decide how Open Worship exchanges scripture references and presentation
+  state, and set expectations for accessibility, privacy, scripture licensing,
+  and supported languages.
 
 ### Next
 
-- Build focused MVPs for presentation, scripture recognition, and local
-  operation.
-- Test them together in real services with clear operator controls and manual
+- Build focused MVPs for church operations and worship presentation.
+- Add local voice and AI scripture recognition to Open Worship.
+- Test the products in real churches with clear operator controls and manual
   fallbacks.
 
 ### Later
 
-- Integrate reliable service workflows into a simple installable product.
-- Consider songs, media, supported integrations, and ongoing maintenance based
-  on community feedback.
+- Connect useful Verger workflows with Open Worship without coupling the
+  products.
+- Consider songs, media, additional church workflows, supported integrations,
+  and ongoing maintenance based on community feedback.
 
 These ideas are not commitments. Priorities may change as we learn.

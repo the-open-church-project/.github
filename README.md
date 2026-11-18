@@ -1,10 +1,10 @@
 # The Open Church Project
 
 The Open Church Project is an open-source effort to build useful, welcoming
-tools for church communities. The planned product direction is an open
-alternative to worship presentation software such as EasyWorship: detect spoken
-scripture references and project the matching passages so scripture slides can
-follow the service, with local/offline operation as a goal.
+tools for church communities. The organization currently has two proposed
+products: **Verger**, a church operating system, and **Open Worship**, an open
+alternative to EasyWorship-style presentation software with local voice and
+local AI recognition for following scripture during services.
 
 The project is at an early planning stage. The roadmap below is a proposal, not
 a promise or a dated delivery schedule. We’ll refine it with feedback from the
@@ -17,9 +17,9 @@ Each proposed product also has its own detailed roadmap:
 
 | Project | Status | Roadmap |
 | --- | --- | --- |
-| Verger | Proposed open worship presenter | [`roadmaps/verger/ROADMAP.md`](roadmaps/verger/ROADMAP.md) |
-| Scripture voice detection | Proposed recognition service | [`roadmaps/scripture-voice/ROADMAP.md`](roadmaps/scripture-voice/ROADMAP.md) |
-| Local and offline operation | Proposed shared capability | [`roadmaps/local-offline/ROADMAP.md`](roadmaps/local-offline/ROADMAP.md) |
+| Verger | Proposed church operating system | [`roadmaps/verger/ROADMAP.md`](roadmaps/verger/ROADMAP.md) |
+| Open Worship | Proposed open worship presentation product | [`roadmaps/open-worship/ROADMAP.md`](roadmaps/open-worship/ROADMAP.md) |
+| Local and offline operation | Proposed capability used by the products | [`roadmaps/local-offline/ROADMAP.md`](roadmaps/local-offline/ROADMAP.md) |
 
 The project is at an early planning stage. These roadmaps are proposals, not
 promises or dated delivery schedules. They will be refined with feedback from
