@@ -19,7 +19,6 @@ Each proposed product also has its own detailed roadmap:
 | --- | --- | --- |
 | Verger | Proposed church operating system | [`roadmaps/verger/ROADMAP.md`](roadmaps/verger/ROADMAP.md) |
 | Open Worship | Proposed open worship presentation product | [`roadmaps/open-worship/ROADMAP.md`](roadmaps/open-worship/ROADMAP.md) |
-| Local and offline operation | Proposed capability used by the products | [`roadmaps/local-offline/ROADMAP.md`](roadmaps/local-offline/ROADMAP.md) |
 
 The project is at an early planning stage. These roadmaps are proposals, not
 promises or dated delivery schedules. They will be refined with feedback from
