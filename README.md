@@ -12,13 +12,32 @@ people and communities the work is meant to serve.
 
 ## Roadmap
 
-### Past — project foundations
+```mermaid
+flowchart LR
+    A["PAST<br/>Project home and MIT license"]
+    B["NOW<br/>Define the scripture workflow"]
+    C["NEXT<br/>Build and test scripture projection"]
+    D["LATER<br/>Expand worship presentation tools"]
+
+    A --> B --> C --> D
+
+    classDef past fill:#e5e7eb,color:#111827,stroke:#6b7280;
+    classDef now fill:#dbeafe,color:#172554,stroke:#2563eb;
+    classDef next fill:#dcfce7,color:#052e16,stroke:#16a34a;
+    classDef later fill:#fef3c7,color:#422006,stroke:#d97706;
+    class A past;
+    class B now;
+    class C next;
+    class D later;
+```
+
+### Past: project foundations
 
 - The project’s GitHub home was established.
 - The repository was given an MIT license.
 - No completed product features or releases are documented here yet.
 
-### Now — listen and agree on a first goal
+### Now: listen and agree on a first goal
 
 - Work with churches and service operators to define the first scripture
   projection workflow and the equipment it needs to support.
@@ -27,7 +46,7 @@ people and communities the work is meant to serve.
 - Define local/offline operation, including how audio is handled, and set
   expectations for accessibility, privacy, and maintenance.
 
-### Next — build and test scripture projection
+### Next: build and test scripture projection
 
 The first useful release could include:
 
@@ -37,7 +56,7 @@ The first useful release could include:
 - A local mode designed to keep working without an internet connection.
 - Testing in real services to improve recognition, reliability, and ease of use.
 
-### Later — grow carefully
+### Later: grow carefully
 
 - Consider support for other service presentation needs, such as songs or media,
   based on community feedback.
