@@ -10,116 +10,20 @@ The project is at an early planning stage. The roadmap below is a proposal, not
 a promise or a dated delivery schedule. We’ll refine it with feedback from the
 people and communities the work is meant to serve.
 
-## Organization roadmap
+## Roadmaps
 
-The organization currently has one public repository:
+Read the [global organization roadmap](ROADMAP.md) for the complete portfolio.
+Each proposed product also has its own detailed roadmap:
 
-| Repository | Status | Purpose |
+| Project | Status | Roadmap |
 | --- | --- | --- |
-| [`.github`](https://github.com/the-open-church-project/.github) | Active | Project direction, organization documentation, and collaboration guidance |
+| Verger | Proposed open worship presenter | [`roadmaps/verger/ROADMAP.md`](roadmaps/verger/ROADMAP.md) |
+| Scripture voice detection | Proposed recognition service | [`roadmaps/scripture-voice/ROADMAP.md`](roadmaps/scripture-voice/ROADMAP.md) |
+| Local and offline operation | Proposed shared capability | [`roadmaps/local-offline/ROADMAP.md`](roadmaps/local-offline/ROADMAP.md) |
 
-No product repositories, releases, or completed application features are
-documented yet. The remaining projects below are proposed workstreams, not
-existing repositories or finished products.
-
-```mermaid
-flowchart TB
-    A["Organization foundations<br/>GitHub home and MIT license"]
-    B["Define shared service workflow,<br/>privacy, accessibility, and licensing"]
-    A --> B
-
-    C1["Open worship presenter<br/>Projected scripture and service slides"]
-    C2["Scripture voice detection<br/>Recognize spoken references"]
-    C3["Local and offline mode<br/>Run without cloud services"]
-
-    B --> C1
-    B --> C2
-    B --> C3
-
-    D1["Test presentation MVP<br/>with service operators"]
-    D2["Add confirmation and<br/>manual correction"]
-    D3["Package approved scripture data<br/>and local models"]
-
-    C1 --> D1
-    C2 --> D2
-    C3 --> D3
-
-    E["Integrated worship service prototype<br/>Voice-led scripture projection that works locally"]
-    D1 --> E
-    D2 --> E
-    D3 --> E
-
-    F["Later expansion<br/>Songs, media, integrations, and maintenance"]
-    E --> F
-```
-
-## Project portfolio
-
-| Project | Status | Now | Next | Later |
-| --- | --- | --- | --- | --- |
-| Organization documentation | Active | Keep the roadmap and contribution guidance accurate | Add templates and clear project governance | Maintain documentation across all repositories |
-| Open worship presenter | Proposed | Define the operator workflow and projector requirements | Build a focused scripture presentation MVP and test it in services | Add other service presentation needs such as songs and media |
-| Scripture voice detection | Proposed | Choose reference patterns, supported languages, and approved scripture sources | Prototype speech recognition, reference matching, confirmation, and manual fallback | Improve accuracy from real-world feedback without exposing private audio |
-| Local and offline operation | Proposed | Decide how audio, scripture data, and models can remain on the device | Make the first complete workflow run without an internet connection | Package simple installation, updates, and supported hardware guidance |
-
-## Delivery roadmap
-
-```mermaid
-flowchart LR
-    A["PAST<br/>Organization foundations"]
-    B["NOW<br/>Define requirements"]
-    C["NEXT<br/>Build connected project MVPs"]
-    D["LATER<br/>Integrate and expand"]
-
-    A --> B --> C --> D
-
-    classDef past fill:#e5e7eb,color:#111827,stroke:#6b7280;
-    classDef now fill:#dbeafe,color:#172554,stroke:#2563eb;
-    classDef next fill:#dcfce7,color:#052e16,stroke:#16a34a;
-    classDef later fill:#fef3c7,color:#422006,stroke:#d97706;
-    class A past;
-    class B now;
-    class C next;
-    class D later;
-```
-
-### Past: organization foundations
-
-- The project’s GitHub home was established.
-- The repository was given an MIT license.
-- No completed product features or releases are documented here yet.
-
-### Now: define each project's first useful goal
-
-- Work with churches and service operators to define the first scripture
-  projection workflow and the equipment it needs to support.
-- Decide how spoken references will be detected, which scripture text sources
-  can be used, and how operators can confirm or correct a match.
-- Define local/offline operation, including how audio is handled, and set
-  expectations for accessibility, privacy, and maintenance.
-
-### Next: build and test the connected MVPs
-
-The first useful releases could include:
-
-- A presentation view that displays scripture passages clearly on a projector.
-- Voice detection to identify spoken scripture references and bring up the
-  matching passage, with operator controls and a manual fallback.
-- A local mode designed to keep working without an internet connection.
-- Testing in real services to improve recognition, reliability, and ease of use.
-
-### Later: integrate and grow carefully
-
-- Connect the presenter, recognition, and local operation work into one
-  reliable service workflow.
-- Consider support for other service presentation needs, such as songs or
-  media, based on community feedback.
-- Explore integrations only when there is a clear need and someone to maintain
-  them.
-- Document supported scripture sources, setup, privacy practices, and ongoing
-  maintenance.
-
-These are ideas to discuss, not commitments. Priorities may change as we learn.
+The project is at an early planning stage. These roadmaps are proposals, not
+promises or dated delivery schedules. They will be refined with feedback from
+the communities the work is meant to serve.
 
 ## How to contribute
 
