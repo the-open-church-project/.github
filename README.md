@@ -10,14 +10,66 @@ The project is at an early planning stage. The roadmap below is a proposal, not
 a promise or a dated delivery schedule. We’ll refine it with feedback from the
 people and communities the work is meant to serve.
 
-## Roadmap
+## Organization roadmap
+
+The organization currently has one public repository:
+
+| Repository | Status | Purpose |
+| --- | --- | --- |
+| [`.github`](https://github.com/the-open-church-project/.github) | Active | Project direction, organization documentation, and collaboration guidance |
+
+No product repositories, releases, or completed application features are
+documented yet. The remaining projects below are proposed workstreams, not
+existing repositories or finished products.
+
+```mermaid
+flowchart TB
+    A["Organization foundations<br/>GitHub home and MIT license"]
+    B["Define shared service workflow,<br/>privacy, accessibility, and licensing"]
+    A --> B
+
+    C1["Open worship presenter<br/>Projected scripture and service slides"]
+    C2["Scripture voice detection<br/>Recognize spoken references"]
+    C3["Local and offline mode<br/>Run without cloud services"]
+
+    B --> C1
+    B --> C2
+    B --> C3
+
+    D1["Test presentation MVP<br/>with service operators"]
+    D2["Add confirmation and<br/>manual correction"]
+    D3["Package approved scripture data<br/>and local models"]
+
+    C1 --> D1
+    C2 --> D2
+    C3 --> D3
+
+    E["Integrated worship service prototype<br/>Voice-led scripture projection that works locally"]
+    D1 --> E
+    D2 --> E
+    D3 --> E
+
+    F["Later expansion<br/>Songs, media, integrations, and maintenance"]
+    E --> F
+```
+
+## Project portfolio
+
+| Project | Status | Now | Next | Later |
+| --- | --- | --- | --- | --- |
+| Organization documentation | Active | Keep the roadmap and contribution guidance accurate | Add templates and clear project governance | Maintain documentation across all repositories |
+| Open worship presenter | Proposed | Define the operator workflow and projector requirements | Build a focused scripture presentation MVP and test it in services | Add other service presentation needs such as songs and media |
+| Scripture voice detection | Proposed | Choose reference patterns, supported languages, and approved scripture sources | Prototype speech recognition, reference matching, confirmation, and manual fallback | Improve accuracy from real-world feedback without exposing private audio |
+| Local and offline operation | Proposed | Decide how audio, scripture data, and models can remain on the device | Make the first complete workflow run without an internet connection | Package simple installation, updates, and supported hardware guidance |
+
+## Delivery roadmap
 
 ```mermaid
 flowchart LR
-    A["PAST<br/>Project home and MIT license"]
-    B["NOW<br/>Define the scripture workflow"]
-    C["NEXT<br/>Build and test scripture projection"]
-    D["LATER<br/>Expand worship presentation tools"]
+    A["PAST<br/>Organization foundations"]
+    B["NOW<br/>Define requirements"]
+    C["NEXT<br/>Build connected project MVPs"]
+    D["LATER<br/>Integrate and expand"]
 
     A --> B --> C --> D
 
@@ -31,13 +83,13 @@ flowchart LR
     class D later;
 ```
 
-### Past: project foundations
+### Past: organization foundations
 
 - The project’s GitHub home was established.
 - The repository was given an MIT license.
 - No completed product features or releases are documented here yet.
 
-### Now: listen and agree on a first goal
+### Now: define each project's first useful goal
 
 - Work with churches and service operators to define the first scripture
   projection workflow and the equipment it needs to support.
@@ -46,9 +98,9 @@ flowchart LR
 - Define local/offline operation, including how audio is handled, and set
   expectations for accessibility, privacy, and maintenance.
 
-### Next: build and test scripture projection
+### Next: build and test the connected MVPs
 
-The first useful release could include:
+The first useful releases could include:
 
 - A presentation view that displays scripture passages clearly on a projector.
 - Voice detection to identify spoken scripture references and bring up the
@@ -56,10 +108,12 @@ The first useful release could include:
 - A local mode designed to keep working without an internet connection.
 - Testing in real services to improve recognition, reliability, and ease of use.
 
-### Later: grow carefully
+### Later: integrate and grow carefully
 
-- Consider support for other service presentation needs, such as songs or media,
-  based on community feedback.
+- Connect the presenter, recognition, and local operation work into one
+  reliable service workflow.
+- Consider support for other service presentation needs, such as songs or
+  media, based on community feedback.
 - Explore integrations only when there is a clear need and someone to maintain
   them.
 - Document supported scripture sources, setup, privacy practices, and ongoing
